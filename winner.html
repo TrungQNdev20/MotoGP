@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="winner.css">
+    <link rel="icon" href="winner/logo.png" type="image/x-icon">
+    <title>Winner X</title>
+</head>
+<body>
+    <div class="container" id="bike">
+        <nav>
+            <img src="winner/logo.png" class="logo">
+            <a href="" class="btn">Test Drive</a>
+        </nav>
+        <div class="content">
+            <h2>Winner X </h2>
+            <h1>V3 ABS</h1>
+            <p>Cuộc đời là một cuộc phiêu lưu tràn đầy những điều bất ngờ và mỗi người đều có một vạch đích của riêng mình. 
+                Hãy tự tin tạo những cú kích để vút xa và tạo dấu ấn riêng biệt cùng Honda WINNER X mới. 
+                Đánh dấu sự chuyển mình mạnh mẽ hướng tới hình ảnh một mẫu siêu xe thể thao cỡ nhỏ hàng đầu tại Việt Nam cùng những trang bị hiện đại và tối tân, 
+                WINNER X mới sẵn sàng cùng các tay lái bứt tốc trên mọi hành trình khám phá.</p>
+            <h3>Choose your color</h3>
+
+            <div class="color-select">
+                <div id="grey"></div>
+                <div id="red"></div>
+                <div id="black"></div>
+                <div id="sport"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let greyBtn = document.getElementById("grey");
+        let redBtn = document.getElementById("red");
+        let blackBtn = document.getElementById("black");
+        let sportBtn = document.getElementById("sport");
+        let bike = document.getElementById("bike");
+
+
+        greyBtn.onclick = function() {
+            bike.style.backgroundImage = "url(winner/Winner-Grey.png)";
+        }
+
+        redBtn.onclick = function() {
+            bike.style.backgroundImage = "url(winner/Winner-red.png)";
+        }
+
+        blackBtn.onclick = function() {
+            bike.style.backgroundImage = "url(winner/Winner-Black.png)";
+        }
+
+        sportBtn.onclick = function() {
+            bike.style.backgroundImage = "url(winner/Sport.jpg)";
+        }
+
+    </script>
+</body>
+</html>

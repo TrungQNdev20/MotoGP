@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(winner/Sport.jpg);
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: bottom right;
+    padding: 20px 10%;
+    transition: background-image 1s;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+nav .btn{
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+nav .btn:hover{
+    opacity: 0.5;
+}
+
+.content{
+    margin-top: 7%;
+}
+
+.content h2{
+    color: red;
+    font-size: 50px;
+}
+
+.content h1{
+    font-size: 100px;
+    color: #222;
+}
+
+.content p{
+    max-width: 500px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #555;
+}
+
+.content h3{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.color-select div{
+    background-color: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.color-select{
+    display: flex;
+    margin-top: 30px;
+}
+
+.color-select #grey{
+    background: silver;
+}
+.color-select #grey:hover{
+    opacity: 0.5;
+}
+
+.color-select #red{
+    background: red;
+}
+.color-select #red:hover{
+    opacity: 0.5;
+}
+
+.color-select #black{
+    background: #000;
+}
+.color-select #black:hover{
+    opacity: 0.5;
+}
+
+.color-select #sport{
+    background: blue;
+}
+.color-select #sport:hover{
+    opacity: 0.5;
+}
